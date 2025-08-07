@@ -1,0 +1,11 @@
+NEW ENTRY
+T: 72.45F | L: 213.50 lx | Pitch: 1.34 | Roll: 7.82 | Yaw: -0.25
+T: 72.63F | L: 218.12 lx | Pitch: 1.48 | Roll: 7.94 | Yaw: -0.21
+T: 72.85F | L: 220.73 lx | Pitch: 1.52 | Roll: 8.11 | Yaw: -0.30
+T: 73.05F | L: 225.46 lx | Pitch: 1.67 | Roll: 8.22 | Yaw: -0.35
+T: 73.14F | L: 230.90 lx | Pitch: 1.74 | Roll: 8.15 | Yaw: -0.40
+T: 73.18F | L: 235.20 lx | Pitch: 1.82 | Roll: 8.07 | Yaw: -0.45
+T: 73.24F | L: 240.00 lx | Pitch: 1.93 | Roll: 7.98 | Yaw: -0.50
+T: 73.36F | L: 243.65 lx | Pitch: 2.01 | Roll: 7.90 | Yaw: -0.55
+T: 73.45F | L: 248.23 lx | Pitch: 2.12 | Roll: 7.76 | Yaw: -0.62
+T: 73.54F | L: 252.00 lx | Pitch: 2.24 | Roll: 7.61 | Yaw: -0.70

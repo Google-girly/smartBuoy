@@ -1,0 +1,7 @@
+BH1750 by Christopher Laws
+MPU6050_light by rfetick
+OneWire by Paul Stoffregen
+DallasTemperature by Miles Burton
+SD (built-in Arduino library)
+SPI (built-in Arduino library)
+Wire (built-in Arduino library)
