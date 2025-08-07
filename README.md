@@ -21,9 +21,6 @@ T: 76.45F | L: 350.23 lx | Pitch: 1.23 | Roll: -0.67 | Yaw: 89.56
 T: 76.51F | L: 352.10 lx | Pitch: 1.28 | Roll: -0.62 | Yaw: 89.60
 ...
 
-markdown
-Copy
-Edit
 
 Each reading is timestamped implicitly by order, logged every 2 seconds.
 
@@ -78,11 +75,11 @@ Data written to file.
 
 Planned enhancements to improve functionality and robustness:
 
-### ✅ System Ready LED Indicator
+### System Ready LED Indicator
 Add an LED that turns on when all sensors and the SD card are initialized correctly, providing a visual “ready” status.
 
-### 🌐 Wireless Logging
+### Wireless Logging
 Incorporate an ESP8266/ESP32 or LoRa module to transmit sensor data wirelessly for remote access.
 
-### 💤 Low Power Mode
+### Low Power Mode
 Enable sleep mode to conserve battery during idle periods or use timed wake intervals.
