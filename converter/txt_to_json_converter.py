@@ -14,9 +14,7 @@ from pathlib import Path
 class SensorDataConverter:
     def __init__(self):
         self.data_pattern = re.compile(
-            r'T:\s*([\d.]+)F\s*\|\s*L:\s*([\d.]+)\s*lx\s*\|\s*'
-            r'Pitch:\s*([-\d.]+)\s*\|\s*Roll:\s*([-\d.]+)\s*\|\s*'
-            r'Yaw:\s*([-\d.]+)'
+            r'T:\s*([\d.]+)F\s*\|\s*Pitch:\s*([-\d.]+)\s*\|\s*Roll:\s*([-\d.]+)\s*\|\s*Yaw:\s*([-\d.]+)'
         )
     
     def parse_sensor_line(self, line):
@@ -26,11 +24,9 @@ class SensorDataConverter:
             return {
                 "temperature": float(match.group(1)),
                 "temperature_unit": "F",
-                "light": float(match.group(2)),
-                "light_unit": "lx",
-                "pitch": float(match.group(3)),
-                "roll": float(match.group(4)),
-                "yaw": float(match.group(5)),
+                "pitch": float(match.group(2)),
+                "roll": float(match.group(3)),
+                "yaw": float(match.group(4)),
                 "orientation_unit": "degrees"
             }
         return None
